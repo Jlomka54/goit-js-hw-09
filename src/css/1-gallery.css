@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 156px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen;
+}
+
+.gallery {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.gallery-item {
+  border-radius: 6px;
+  overflow: auto;
+  transition: transform 300ms ease;
+  flex-basis: calc((100% - 48px) / 3);
+}
+.gallery-image {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+.gallery-item:hover {
+  transform: scale(1.1);
+}
+.gallery-title {
+  margin-bottom: 30px;
+}
