@@ -1,5 +1,8 @@
-// import SimpleLightbox from "simplelightbox";
-import SimpleLightbox from "simplelightbox/dist/simple-lightbox.esm"
+
+import SimpleLightbox from "simplelightbox";
+
+import "simplelightbox/dist/simple-lightbox.min.css";
+
 
 
 const images = [
@@ -103,6 +106,6 @@ imgList.insertAdjacentHTML('afterbegin', image);
     
 new SimpleLightbox('.gallery a', {
 captionsData: 'alt',
-  captionDelay: 300,
+  captionDelay: 250,
 });
 
