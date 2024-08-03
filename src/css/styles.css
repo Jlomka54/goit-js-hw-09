@@ -5,9 +5,8 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./header.css');
 @import url('./1-gallery.css');
-@import url(./2-form.css);
+@import url('./2-form.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -23,4 +22,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+.nav-list .nav-link:hover,
+.back-bt:hover {
+  color: rgb(51, 51, 193);
 }

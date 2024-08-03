@@ -1,5 +1,5 @@
-body {
-  background-color: gray;
+body.form-body {
+  background-color: rgb(219, 219, 219);
 }
 h1 {
   margin-bottom: 40px;
